@@ -49,6 +49,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    font-style: normal
 }
 .header-address-link:is(:hover, :focus){
     color: var(--pressed-state);
@@ -79,11 +80,7 @@ ul {
 .hero-btn:is(:hover, :focus){
     background-color: #404BBF
 }
-.benefits {}
 
-.benefits-list {}
-
-.benefits-item {}
 
 .benefits-subtitle {        
         font-weight: 500;
@@ -163,9 +160,6 @@ ul {
         color: #F4F4FD;
 }
 
-.categories-list {}
-
-
 .categories-btn { 
         font-family: 'Roboto';
         font-style: normal;
@@ -176,11 +170,11 @@ ul {
         color: #4D5AE5;
         cursor: pointer;
     }
-    .categories-btn:is(:hover, :focus) {
+.categories-btn:is(:hover, :focus) {
     color: #FFFFFF;
 }
 
-.product-link{}
+
 
 .product-subtitle {
         font-weight: 500;
