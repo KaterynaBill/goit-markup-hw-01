@@ -43,13 +43,16 @@ ul {
 .header-menu-link:is(:hover, :focus) {
     color: var(--pressed-state);
 }
+.address {
+    font-style: normal;
+}
 .header-address-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    font-style: normal
+    font-style: normal;
 }
 .header-address-link:is(:hover, :focus){
     color: var(--pressed-state);
@@ -63,8 +66,8 @@ ul {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center
         color: #FFFFFF;
+        text-align: center;
 
 }
 
@@ -74,8 +77,10 @@ ul {
         font-size: 16px;
         line-height: 1.5; 
         letter-spacing: 0.04em;
-        color: #4D5AE5;
-        cursor: pointer
+        color: #FFFFFF;
+        cursor: pointer;
+        text-align: center;
+        background-color: #4D5AE5;
 }
 .hero-btn:is(:hover, :focus){
     background-color: #404BBF
@@ -102,7 +107,7 @@ ul {
         line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--title-color);
-        text-align: center
+        text-align: center;
         text-transform: capitalize;
 }
 .team {
@@ -161,7 +166,7 @@ ul {
 }
 
 .categories-btn { 
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -169,12 +174,11 @@ ul {
         letter-spacing: 0.04em;
         color: #4D5AE5;
         cursor: pointer;
+        background-color: #F4F4FD;
     }
 .categories-btn:is(:hover, :focus) {
-    color: #FFFFFF;
+    color: #404BBF;
 }
-
-
 
 .product-subtitle {
         font-weight: 500;
@@ -185,7 +189,7 @@ ul {
 }
 
 .product-text {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
