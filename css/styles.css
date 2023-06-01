@@ -177,7 +177,8 @@ ul {
         background-color: #F4F4FD;
     }
 .categories-btn:is(:hover, :focus) {
-    color: #404BBF;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .product-subtitle {
