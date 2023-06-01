@@ -43,7 +43,7 @@ ul {
 .header-menu-link:is(:hover, :focus) {
     color: var(--pressed-state);
 }
-.address {
+.address-list {
     font-style: normal;
 }
 .header-address-link{
