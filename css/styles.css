@@ -33,20 +33,20 @@ ul {
 .header-logo span {
     color: #2E2F42;
 }
-.header-menu-link {
+.header-menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.header-menu-link:is(:hover, :focus) {
+.header-menu:is(:hover, :focus) {
     color: var(--pressed-state);
 }
 .address-list {
     font-style: normal;
 }
-.header-address-item{
+.header-address{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -54,7 +54,7 @@ ul {
     color: var(--main-text-color);
     font-style: normal;
 }
-.header-address-item:is(:hover, :focus){
+.header-address:is(:hover, :focus){
     color: var(--pressed-state);
 }
 .hero {
