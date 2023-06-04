@@ -20,6 +20,9 @@ ul {
 .link{
     text-decoration: none;
 }
+.list {
+    list-style: none;
+}
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -33,14 +36,14 @@ ul {
 .header-logo span {
     color: #2E2F42;
 }
-.header-menu {
+.header-menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.header-menu:is(:hover, :focus) {
+.header-menu-item:is(:hover, :focus) {
     color: var(--pressed-state);
 }
 .address-list {
@@ -195,7 +198,4 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
-}
-.list {
-    list-style: none;
 }
