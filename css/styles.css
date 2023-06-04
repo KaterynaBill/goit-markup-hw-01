@@ -46,6 +46,13 @@ ul {
 .header-menu-item:is(:hover, :focus) {
     color: var(--pressed-state);
 }
+.header-menu {
+    color: var(--title-color);
+
+}
+.header-menu:is(:hover, :focus) {
+    color: var(--pressed-state);
+}
 .address-list {
     font-style: normal;
 }
