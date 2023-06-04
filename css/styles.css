@@ -53,7 +53,7 @@ ul {
 .header-menu:is(:hover, :focus) {
     color: var(--pressed-state);
 }
-.address-list {
+.address {
     font-style: normal;
 }
 .header-address{
